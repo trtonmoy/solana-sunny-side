@@ -5382,12 +5382,23 @@ img {
   border-radius: 8px;
 }
 
+.vid {
+  height: 550px;
+  width: 100%;
+  border-radius: 5px;
+}
+
 @media only screen and (max-width: 768px) {
   .dapp {
     padding: 10px 30px;
     text-align: center;
     border-radius: 50px;
     background-color: #3aa54d;
+  }
+
+  .vid {
+    width: 100%;
+    height: 100%;
   }
 }
 
